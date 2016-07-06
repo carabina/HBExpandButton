@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                a button that can pop up sub button
+               this project provide a button that can pop up sub button
  
 		 DESC
 
@@ -70,7 +70,7 @@ Pod::Spec.new do |s|
 
   #  When using multiple platforms
    s.ios.deployment_target = "9.0"
-   s.osx.deployment_target = "10.7"
+  #s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
@@ -84,7 +84,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Raizo7777/HBExpandButton.git", :tag => "#{s.version}" }
 
 
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+ # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  CocoaPods is smart about how it includes source code. For source files
   #  giving a folder will include any swift, h, m, mm, c & cpp files.
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "HBExpandButton/HBExpandButton/HBExpandButton/*.{swift}"
+  s.source_files  = "HBExpandButton/HBExpandButton/*.{swift}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
